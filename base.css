@@ -20,19 +20,97 @@ body {
 }
 .menu {
     width: 15%;
-    background-color: aqua;
+    background-color: rgb(1, 10, 91);
     padding: 10px 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .header {
-    background-color: rgb(5, 108, 108);
+    background-color: rgb(1, 10, 91);
     min-height: 150px;
+    text-align: center;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 50% 50%;
+
 }
 .content {
     background-color: white;
     min-height: 300px;
     padding: 20px;
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
+
+.content_02 {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;   
+    display: grid; 
+    text-align: center;
+    justify-content: center;
+}
+
 .footer {
-    background-color: rgb(99, 56, 240);
+    background-color: rgb(1, 10, 91);
     min-height: 150px;
+    display: flex; 
+    justify-content: flex-end;
+    align-items: flex-end
+     
 }
+
+#headerDog{
+    width: 80px;   
+    margin-left: 100px;
+}
+
+.img_dog_reader{
+    display: flex;
+    align-items: center; /* Isso que deixa ele no centro sem esticar */
+    
+}
+
+#titulo-veterinario, ul, a{
+    color: #f1f1f1;
+}
+
+#ul_menu li, a{
+    list-style-type: none;  
+    text-decoration: none;
+    padding: 5px;
+}
+
+#li_footer li{
+    display: inline;    
+}
+
+#veterinario_cachorro{
+    width: 25rem;
+}
+
+table, th, td{
+    border: solid 1px black;
+    border-collapse: collapse;
+    padding: 3px;
+    padding-right: 40px;
+    text-align: left;
+    
+}
+
+th {
+    background-color: grey;
+    color: #f1f1f1;
+}
+
+label, input{
+    display: block;
+    
+}
+
+button{
+    margin-top: 10px;
+}
+
+
